@@ -1,0 +1,33 @@
+<Page
+    x:Class="RTSPKiosk.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Background="Black">
+
+    <Grid Background="Black">
+        <MediaPlayerElement
+            x:Name="Video"
+            Stretch="Uniform"
+            AreTransportControlsEnabled="False"
+            IsTabStop="False" />
+
+        <TextBlock
+            x:Name="Status"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Margin="48"
+            FontSize="28"
+            Foreground="White"
+            TextAlignment="Center"
+            TextWrapping="Wrap" />
+
+        <TextBlock
+            x:Name="Notice"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Bottom"
+            Margin="24"
+            FontSize="16"
+            Foreground="#CCFFFFFF"
+            Visibility="Collapsed" />
+    </Grid>
+</Page>

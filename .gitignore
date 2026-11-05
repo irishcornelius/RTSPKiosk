@@ -1,0 +1,10 @@
+bin/
+obj/
+dist/
+.vs/
+*.user
+*.pfx
+AppPackages/
+BundleArtifacts/
+# Real configuration holds camera credentials; only the sample belongs in source control.
+config/config.json
